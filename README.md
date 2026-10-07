@@ -35,6 +35,7 @@ Exploratory-Data-Analysis-EDA/
 ├── custom_titanic_histograms.png
 ├── custom_titanic_scatterplot_fixed.png
 └── README.md
+```
 
 🔍 Analysis Performed
 1. Dataset Loading
