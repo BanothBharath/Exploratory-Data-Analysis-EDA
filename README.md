@@ -37,7 +37,7 @@ Exploratory-Data-Analysis-EDA/
 └── README.md
 ```
 
-🔍 Analysis Performed
+## 🔍 Analysis Performed
 1. Dataset Loading
 The dataset is loaded using Pandas:
 data = pd.read_csv('custom_titanic_dataset.csv')
@@ -76,7 +76,7 @@ This helps visualize whether there is an apparent relationship between passenger
 7. Boxplot Analysis
 The project also analyzes the distribution of Age according to survival status using a boxplot.
 
-📊 Visualizations
+## 📊 Visualizations
 
 ### Correlation Heatmap
 
@@ -96,7 +96,7 @@ The scatterplot shows the relationship between passenger age and fare, along wit
 
 ![Age vs Fare Scatterplot](custom_titanic_scatterplot_fixed.png)
 
-💡 Key Observations
+## 💡 Key Observations
 
 1. The correlation heatmap shows that most numerical variables have weak correlations with each other.
 2. PassengerId has a relatively weak positive correlation with Survived.
@@ -105,7 +105,7 @@ The scatterplot shows the relationship between passenger age and fare, along wit
 5. The scatterplot helps visualize the relationship between Age and Fare while considering survival status.
 6. The boxplot can be used to compare age distributions between passengers who survived and those who did not.
    
-▶️ How to Run
+## ▶️ How to Run
 
 Step 1: Clone the repository
 git clone <YOUR-GITHUB-REPOSITORY-URL>
@@ -119,11 +119,12 @@ pip install pandas matplotlib seaborn
 Step 4: Run the Python script
 python EDA.py
 
-📋 Requirements
+## 📋 Requirements
 pandas
 matplotlib
 seaborn
 
 👨‍💻 Author
 Banoth Bharath
+
 GitHub: BanothBharath
