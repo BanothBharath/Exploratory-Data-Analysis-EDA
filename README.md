@@ -75,21 +75,38 @@ An Age vs. Fare scatterplot is created with survival status represented using di
 This helps visualize whether there is an apparent relationship between passenger age, fare, and survival.
 7. Boxplot Analysis
 The project also analyzes the distribution of Age according to survival status using a boxplot.
+
 📊 Visualizations
-The project generates the following visualizations:
-- Correlation Heatmap
-- Histograms
-- Age vs. Fare Scatterplot
-- Age Distribution by Survival Status
-- Pairplot
+
+### Correlation Heatmap
+
+The correlation heatmap shows the relationships between the numerical variables.
+
+![Correlation Heatmap](custom_titanic_heatmap_fixed.png)
+
+### Histograms
+
+Histograms show the distribution of the numerical features in the dataset.
+
+![Histograms](custom_titanic_histograms.png)
+
+### Age vs. Fare Scatterplot
+
+The scatterplot shows the relationship between passenger age and fare, along with survival status.
+
+![Age vs Fare Scatterplot](custom_titanic_scatterplot_fixed.png)
+
 💡 Key Observations
+
 1. The correlation heatmap shows that most numerical variables have weak correlations with each other.
 2. PassengerId has a relatively weak positive correlation with Survived.
 3. Fare shows a weak negative correlation with Survived in this dataset.
 4. Histograms provide an overview of the distribution of numerical variables.
 5. The scatterplot helps visualize the relationship between Age and Fare while considering survival status.
 6. The boxplot can be used to compare age distributions between passengers who survived and those who did not.
+   
 ▶️ How to Run
+
 Step 1: Clone the repository
 git clone <YOUR-GITHUB-REPOSITORY-URL>
 
