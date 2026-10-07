@@ -124,7 +124,7 @@ pandas
 matplotlib
 seaborn
 
-👨‍💻 Author
+## 👨‍💻 Author
 Banoth Bharath
 
 GitHub: BanothBharath
